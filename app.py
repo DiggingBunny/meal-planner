@@ -116,7 +116,7 @@ if should_call_api:
 
     with st.spinner("메뉴를 고민하는 중입니다..."):
         response = client.chat.completions.create(
-            model="gpt-5-mini",
+            model="gpt-4o-mini",
             temperature=1.0,  # 다시 추천 시 메뉴가 더 다양하게 나오도록 온도 설정
             messages=[
                 {
